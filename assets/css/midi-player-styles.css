@@ -1,0 +1,86 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+
+.rich-black-fogra-29 { color: #04080fff;}
+.glaucous { color: #507dbcff;}
+.baby-blue-eyes { color: #a1c6eaff;}
+.light-steel-blue { color: #bbd1eaff;}
+.gainsboro { color: #dae3e5ff;}
+
+.viz-wrapper {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  scroll-behavior: smooth;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.buttons button {
+  position: relative;
+  margin: 0 6px 0 0;
+  min-width: 80px;
+}
+
+.buttons i {
+  font-size: 32px;
+  color: rgb(255,255,255);
+  margin: 0 28px 10px 0;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.buttons i:hover {
+  color: #507dbcff;
+}
+
+.buttons i.active {
+  color: #507dbcff;
+}
+
+.note.ds-selected:not(.active) {
+  fill: #507dbc;
+}
+
+.tempo-settings {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tempo-settings label {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tempo {
+  position: relative;
+  max-width: 64px;
+}
+
+.viz {
+  position: relative;
+  background-color: rgb(70, 70, 70);
+  min-width: 100%;
+  margin: 10px 0;
+}
+
+.hide {
+  display: none !important;
+}
+
+.mp-loop-area {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  z-index: 20;
+  overflow: visible;
+}
+
+.mp-loop-area.hide {
+  display: none;
+}

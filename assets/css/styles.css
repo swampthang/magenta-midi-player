@@ -1,0 +1,11 @@
+body, h1,h2,h3,div,p {
+  color: white;
+}
+
+body {
+  background-color: rgb(46, 46, 46);
+}
+
+#file-select-wrapper {
+  max-width: 320px;
+}
